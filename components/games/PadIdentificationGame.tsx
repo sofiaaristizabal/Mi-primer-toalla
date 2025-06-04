@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { IdentificationGameData, IdentificationRound, IdentificationItem } from '../../types';
+import { IdentificationGameData, IdentificationItem } from '../../types';
 
 interface PadIdentificationGameProps {
   gameData: IdentificationGameData;

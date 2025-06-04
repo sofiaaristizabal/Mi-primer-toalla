@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { QuizData, QuizQuestion, QuizOption } from '../../types';
+import { QuizData} from '../../types';
 
 interface ComprehensionQuizProps {
   quizData: QuizData;
