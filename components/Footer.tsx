@@ -8,6 +8,12 @@ const Footer: React.FC = () => {
         <p className="text-sm">
           Hecho con <span role="img" aria-label="corazón">💖</span> para chicas increíbles como tú.
         </p>
+        <p className="text-sm mt-2">
+          Realizado por Sofia Aristizabal Madrid, estudiante de ingenieria de sistemas y computación de la EIA
+        </p>
+        <p className="text-sm mt-2">
+         Propiedad de Aula Abierta
+        </p>
         <p className="text-xs mt-2">
           &copy; {new Date().getFullYear()} Guía Amiga. Todos los derechos reservados (¡pero comparte el cariño!).
         </p>
