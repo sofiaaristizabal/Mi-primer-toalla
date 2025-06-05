@@ -64,27 +64,27 @@ const padIdentificationGameData: IdentificationGameData = {
       id: 'r1',
       prompt: 'Entre estas cosas, ¿cuál es la toalla femenina?',
       items: [
-        { id: 'r1i1', name: 'Una curita (tirita)', imageUrl: '/img/curita.png', altText: 'Curita', isCorrect: false },
-        { id: 'r1i2', name: 'Una toallita femenina', imageUrl: '/img/cmo se ve la toalla.png', altText: 'Toalla femenina', isCorrect: true },
-        { id: 'r1i3', name: 'Una esponja para lavar platos', imageUrl: '/img/esponja.png', altText: 'Esponja de cocina', isCorrect: false },
+        { id: 'r1i1', name: 'Una curita (tirita)', imageUrl: '/curita.png', altText: 'Curita', isCorrect: false },
+        { id: 'r1i2', name: 'Una toallita femenina', imageUrl: '/cmo se ve la toalla.png', altText: 'Toalla femenina', isCorrect: true },
+        { id: 'r1i3', name: 'Una esponja para lavar platos', imageUrl: '/esponja.png', altText: 'Esponja de cocina', isCorrect: false },
       ],
     },
     {
       id: 'r2',
       prompt: '¡Otra vez! ¿Cuál de estos es para tu periodo?',
       items: [
-        { id: 'r2i1', name: 'Un pañal de bebé', imageUrl: '/img/pamper.png', altText: 'Pañal de bebé', isCorrect: false },
-        { id: 'r2i2', name: 'Un pañuelo de papel', imageUrl: '/img/pañuelo.png', altText: 'Pañuelo de papel', isCorrect: false },
-        { id: 'r2i3', name: 'Una toallita femenina con alas', imageUrl: '/img/toalla con alas.png', altText: 'Toalla femenina con alas', isCorrect: true },
+        { id: 'r2i1', name: 'Un pañal de bebé', imageUrl: '/pamper.png', altText: 'Pañal de bebé', isCorrect: false },
+        { id: 'r2i2', name: 'Un pañuelo de papel', imageUrl: '/pañuelo.png', altText: 'Pañuelo de papel', isCorrect: false },
+        { id: 'r2i3', name: 'Una toallita femenina con alas', imageUrl: '/toalla con alas.png', altText: 'Toalla femenina con alas', isCorrect: true },
       ],
     },
      {
       id: 'r3',
       prompt: '¡Última ronda! Identifica la toalla.',
       items: [
-        { id: 'r3i1', name: 'Una toallita femenina nocturna', imageUrl: '/img/toalla nocturna.png', altText: 'Toalla femenina nocturna', isCorrect: true },
-        { id: 'r3i2', name: 'Un algodón desmaquillante', imageUrl: '/img/algodon.png', altText: 'Algodón desmaquillante', isCorrect: false },
-        { id: 'r3i3', name: 'Un jabón en barra', imageUrl: '/img/jabon.png', altText: 'Jabón en barra', isCorrect: false },
+        { id: 'r3i1', name: 'Una toallita femenina nocturna', imageUrl: '/toalla nocturna.png', altText: 'Toalla femenina nocturna', isCorrect: true },
+        { id: 'r3i2', name: 'Un algodón desmaquillante', imageUrl: '/algodon.png', altText: 'Algodón desmaquillante', isCorrect: false },
+        { id: 'r3i3', name: 'Un jabón en barra', imageUrl: '/jabon.png', altText: 'Jabón en barra', isCorrect: false },
       ],
     },
   ],
@@ -114,10 +114,10 @@ export const SECTIONS_DATA: SectionData[] = [
     titleColor: 'text-pink-600',
     content: [
       { type: 'paragraph', text: "¡Hola! Vamos a charlar sobre algo súper normal que nos pasa a las chicas cuando crecemos: ¡la menstruación! A veces también la llamamos 'la regla' o 'el periodo'." },
-      { type: 'image', imageUrl: '/img/etapas.png', altText: 'Etapas de crecimiento de la mujer' },
+      { type: 'image', imageUrl: '/etapas.png', altText: 'Etapas de crecimiento de la mujer' },
       { type: 'paragraph', text: "¿Sabes por qué ocurre? Imagina que tu útero (es como una cama blanda dentro de ti) se prepara cada mes por si un bebé quisiera crecer ahí. Si no hay bebé, esa cama suelta una parte de su colchón. ¡Eso es la menstruación! Es como una limpieza natural que hace tu cuerpo." },
       { type: 'paragraph', text: "Suele empezar cuando tienes entre 9 y 13 años, ¡pero cada cuerpo es un mundo y tiene su propio ritmo! Así que no te preocupes si a tus amigas les llega antes o después que a ti." },
-      { type: 'image', imageUrl: '/img/cuanto dura el periodo.png', altText: 'Toallita y calendario simbolizando el ciclo menstrual' },
+      { type: 'image', imageUrl: '/cuanto dura el periodo.png', altText: 'Toallita y calendario simbolizando el ciclo menstrual' },
       { type: 'paragraph', text: "Es algo completamente natural y una señal de que tu cuerpo está sano y se está desarrollando. ¡No hay nada de qué avergonzarse, al contrario, es parte de ser una chica increíble!" },
     ],
   },
@@ -131,7 +131,7 @@ export const SECTIONS_DATA: SectionData[] = [
     titleColor: 'text-purple-600',
     content: [
       { type: 'paragraph', text: "Una toalla femenina, también llamada compresa, es como una almohada suave y absorbente que se pone en tu ropa interior (tus panti o calzones) para recoger el flujo menstrual." },
-      { type: 'image', imageUrl: '/img/cmo se ve la toalla.png', altText: 'Ilustración de una toallita femenina' },
+      { type: 'image', imageUrl: '/cmo se ve la toalla.png', altText: 'Ilustración de una toallita femenina' },
       { type: 'paragraph', text: "¡Así te sientes limpia, cómoda y segura durante tu periodo, para que puedas seguir haciendo todas tus cosas!" },
       { type: 'subheading', text: "Hay diferentes tipos, ¡como superhéroes con distintos poderes!:" },
       { type: 'list', items: [
@@ -156,13 +156,13 @@ export const SECTIONS_DATA: SectionData[] = [
       {
         type: 'orderedList',
         orderedItems: [
-          { id: 'step1', text: "**Lava tus manos:** ¡Súper importante! Usa agua y jabón antes y después de cambiar tu toalla.", imageUrl: '/img/1 lavarse las manos.png', altText: 'Paso 1: Lavarse las manos' },
-          { id: 'step2', text: "**Abre la toalla:** Con cuidado, quita el envoltorio. Algunas toallas usan el mismo envoltorio para desecharla después, ¡qué práctico!", imageUrl: '/img/2 abrir la toalla.png', altText: 'Paso 2: Abrir el empaque de la toallita' },
-          { id: 'step3', text: "**Despega el papel:** Verás una tira de papel (o a veces dos) que cubre el pegamento en la parte de atrás de la toalla y en las alas (si tiene). ¡Quítala con cuidado!", imageUrl: '/img/3 despegar el ppelito.png', altText: 'Paso 3: Quitar el papel protector del adhesivo' },
-          { id: 'step4', text: "**Pégala en tu ropa interior:** Coloca la parte con pegamento en el centro de tu panti o calzón. La parte más ancha suele ir hacia atrás. Si tiene alas, dóblalas hacia abajo y pégalas por fuera del calzón.", imageUrl: '/img/4 pegarla a la ropa.png', altText: 'Paso 4: Colocar la toallita en la ropa interior' },
-          { id: 'step5', text: "**Súbete la ropa:** ¡Ajusta tu ropa interior y listo! Ya estás protegida y cómoda." , imageUrl: '/img/5 subirse la ropa interior.png', altText: 'Paso 3: Quitar el papel protector del adhesivo' },
+          { id: 'step1', text: "**Lava tus manos:** ¡Súper importante! Usa agua y jabón antes y después de cambiar tu toalla.", imageUrl: '/1 lavarse las manos.png', altText: 'Paso 1: Lavarse las manos' },
+          { id: 'step2', text: "**Abre la toalla:** Con cuidado, quita el envoltorio. Algunas toallas usan el mismo envoltorio para desecharla después, ¡qué práctico!", imageUrl: '/2 abrir la toalla.png', altText: 'Paso 2: Abrir el empaque de la toallita' },
+          { id: 'step3', text: "**Despega el papel:** Verás una tira de papel (o a veces dos) que cubre el pegamento en la parte de atrás de la toalla y en las alas (si tiene). ¡Quítala con cuidado!", imageUrl: '/3 despegar el ppelito.png', altText: 'Paso 3: Quitar el papel protector del adhesivo' },
+          { id: 'step4', text: "**Pégala en tu ropa interior:** Coloca la parte con pegamento en el centro de tu panti o calzón. La parte más ancha suele ir hacia atrás. Si tiene alas, dóblalas hacia abajo y pégalas por fuera del calzón.", imageUrl: '/4 pegarla a la ropa.png', altText: 'Paso 4: Colocar la toallita en la ropa interior' },
+          { id: 'step5', text: "**Súbete la ropa:** ¡Ajusta tu ropa interior y listo! Ya estás protegida y cómoda." , imageUrl: '/5 subirse la ropa interior.png', altText: 'Paso 3: Quitar el papel protector del adhesivo' },
           { id: 'step6', text: "**Para quitarla y tirarla:** Cuando esté llena o pasen unas horas, despégala de tu ropa interior. Enróllala como un tubito (puedes usar el envoltorio de la nueva toallita o un poco de papel higiénico para envolverla) y ¡al bote de basura! **Muy importante: ¡Nunca la tires al inodoro!** Podría tapar las tuberías. Lo explicaremos mas a detalle en la siguiente sección." },
-          { id: 'step7', text: "**Lava tus manos otra vez:** ¡Perfecto! Mantener tus manos limpias es clave.",  imageUrl: '/img/1 lavarse las manos.png', altText: 'Paso 7: Lavarse las manos nuevamente' },
+          { id: 'step7', text: "**Lava tus manos otra vez:** ¡Perfecto! Mantener tus manos limpias es clave.",  imageUrl: '/1 lavarse las manos.png', altText: 'Paso 7: Lavarse las manos nuevamente' },
         ],
       },
       { type: 'subheading', text: "¡Pequeños Trucos de Magia!" },
@@ -200,15 +200,15 @@ export const SECTIONS_DATA: SectionData[] = [
       {
         type: 'orderedList',
         orderedItems: [
-          { id: 'cambiar-step1', text: "**Pide Permiso con Confianza:** Si estás en el colegio o en casa de alguien y necesitas ir al baño, ¡no dudes en pedirlo! Con una sonrisa, puedes decir: _'¿Me das permiso para ir al baño, por favor?'_. ¡Es muy valiente pedir lo que necesitas!", imageUrl: '/img/paso 1.png', altText: 'Niña levantando la mano amablemente para pedir permiso' },
-          { id: 'cambiar-step2', text: "**Dirígete al Baño Tranquilamente:** Una vez que te den permiso, camina con calma hacia el baño. Si no estás segura de dónde está, pregunta con amabilidad: _'¿Podrías decirme dónde está el baño?'_. ¡Siempre habrá alguien dispuesto a ayudarte!", imageUrl: '/img/paso 2.png', altText: 'Niña caminando con seguridad hacia la puerta del baño' },
-          { id: 'cambiar-step3', text: "**¡Manos Limpias Primero!:** Antes de tocar nada más, ¡es hora de lavar esas manos! Usa agua tibia y jabón, y frótalas bien, como una experta. ¡Así nos aseguramos de que todo esté súper limpio!", imageUrl: '/img/1 lavarse las manos.png', altText: 'Lavándose las manos con agua y jabón' },
-          { id: 'cambiar-step4', text: "**Prepara tu Ropa:** Con cuidado, baja tus pantalones y tu ropa interior (panti o calzón) hasta las rodillas. Así tendrás espacio para cambiar tu toalla cómodamente y sin prisas.", imageUrl: '/img/paso 10.png', altText: 'Ilustración mostrando cómo bajar la ropa interior para cambiar la toallita' },
-          { id: 'cambiar-step5', text: "**Retira la Toalla Usada:** Con suavidad, toma la toalla usada por los bordes o el centro y despégala de tu ropita interior. Si tiene alas primero despega estas y luego el resto de la toalla. ¡Con cuidado para no ensuciarte!", imageUrl: '/img/paso 6.png', altText: 'Mano retirando con cuidado la toallita usada de la ropa interior' },
-          { id: 'cambiar-step6', text: "**Enrólla la toalla:** ¡Vamos a ser muy listas y limpias! Enrolla la toalla usada sobre sí misma, como si hicieras un pequeño tubito o un taquito. Puedes usar un trozo de papel higiénico o el mismo envoltorio de la toalla nueva para envolverla bien.", imageUrl: '/img/paso 7.png', altText: 'Toallita usada siendo enrollada cuidadosamente en papel higiénico' },
-          { id: 'cambiar-step7', text: "**Al Bote de Basura:** Busca el bote de basura (¡la caneca de los desechos!) y deposita ahí tu toalla enrollada. **Súper importante:** ¡nunca, nunca, nunca la tires dentro del inodoro! Podría hacer que el baño no funcione bien.", imageUrl: '/img/paso 8.png', altText: 'Mano depositando la toallita enrollada en el bote de basura' },
-          { id: 'cambiar-step8', text: "**¡Hora de la Toalla Nueva!:** ¡Genial! Ahora toma una toalla limpia. ¿Recuerdas cómo la pusimos antes? (en la sección anterior). Ábrela con cuidado, quita el papel que protege el pegamento y pégala en el centro de tu ropita interior. Si tiene alas, dóblalas hacia abajo y pégalas por fuera. ¡Perfecto!", imageUrl: '/img/paso 5.png', altText: 'Colocando una nueva toallita limpia en la ropa interior' },
-          { id: 'cambiar-step9', text: "**¡Arriba la Ropa y Manos Limpias de Nuevo!:** Súbete con cuidado tu ropa interior y tus pantalones. Para terminar, vuelve a lavar tus manos con agua y jabón. ¡Ahora sí, estás fresca, limpia y lista para seguir con tu día!", imageUrl: '/img/5 subirse la ropa interior.png', altText: 'Niña sonriendo y mostrando sus manos limpias después de cambiar su toallita' },
+          { id: 'cambiar-step1', text: "**Pide Permiso con Confianza:** Si estás en el colegio o en casa de alguien y necesitas ir al baño, ¡no dudes en pedirlo! Con una sonrisa, puedes decir: _'¿Me das permiso para ir al baño, por favor?'_. ¡Es muy valiente pedir lo que necesitas!", imageUrl: '/paso 1.png', altText: 'Niña levantando la mano amablemente para pedir permiso' },
+          { id: 'cambiar-step2', text: "**Dirígete al Baño Tranquilamente:** Una vez que te den permiso, camina con calma hacia el baño. Si no estás segura de dónde está, pregunta con amabilidad: _'¿Podrías decirme dónde está el baño?'_. ¡Siempre habrá alguien dispuesto a ayudarte!", imageUrl: '/paso 2.png', altText: 'Niña caminando con seguridad hacia la puerta del baño' },
+          { id: 'cambiar-step3', text: "**¡Manos Limpias Primero!:** Antes de tocar nada más, ¡es hora de lavar esas manos! Usa agua tibia y jabón, y frótalas bien, como una experta. ¡Así nos aseguramos de que todo esté súper limpio!", imageUrl: '/1 lavarse las manos.png', altText: 'Lavándose las manos con agua y jabón' },
+          { id: 'cambiar-step4', text: "**Prepara tu Ropa:** Con cuidado, baja tus pantalones y tu ropa interior (panti o calzón) hasta las rodillas. Así tendrás espacio para cambiar tu toalla cómodamente y sin prisas.", imageUrl: '/paso 10.png', altText: 'Ilustración mostrando cómo bajar la ropa interior para cambiar la toallita' },
+          { id: 'cambiar-step5', text: "**Retira la Toalla Usada:** Con suavidad, toma la toalla usada por los bordes o el centro y despégala de tu ropita interior. Si tiene alas primero despega estas y luego el resto de la toalla. ¡Con cuidado para no ensuciarte!", imageUrl: '/paso 6.png', altText: 'Mano retirando con cuidado la toallita usada de la ropa interior' },
+          { id: 'cambiar-step6', text: "**Enrólla la toalla:** ¡Vamos a ser muy listas y limpias! Enrolla la toalla usada sobre sí misma, como si hicieras un pequeño tubito o un taquito. Puedes usar un trozo de papel higiénico o el mismo envoltorio de la toalla nueva para envolverla bien.", imageUrl: '/paso 7.png', altText: 'Toallita usada siendo enrollada cuidadosamente en papel higiénico' },
+          { id: 'cambiar-step7', text: "**Al Bote de Basura:** Busca el bote de basura (¡la caneca de los desechos!) y deposita ahí tu toalla enrollada. **Súper importante:** ¡nunca, nunca, nunca la tires dentro del inodoro! Podría hacer que el baño no funcione bien.", imageUrl: '/paso 8.png', altText: 'Mano depositando la toallita enrollada en el bote de basura' },
+          { id: 'cambiar-step8', text: "**¡Hora de la Toalla Nueva!:** ¡Genial! Ahora toma una toalla limpia. ¿Recuerdas cómo la pusimos antes? (en la sección anterior). Ábrela con cuidado, quita el papel que protege el pegamento y pégala en el centro de tu ropita interior. Si tiene alas, dóblalas hacia abajo y pégalas por fuera. ¡Perfecto!", imageUrl: '/paso 5.png', altText: 'Colocando una nueva toallita limpia en la ropa interior' },
+          { id: 'cambiar-step9', text: "**¡Arriba la Ropa y Manos Limpias de Nuevo!:** Súbete con cuidado tu ropa interior y tus pantalones. Para terminar, vuelve a lavar tus manos con agua y jabón. ¡Ahora sí, estás fresca, limpia y lista para seguir con tu día!", imageUrl: '/5 subirse la ropa interior.png', altText: 'Niña sonriendo y mostrando sus manos limpias después de cambiar su toallita' },
         ],
       },
       { type: 'paragraph', text: "¡Lo has hecho de maravilla! Cambiar tu toalla es una forma de cuidarte y quererte. ¡Sigue así de genial!" }
@@ -224,7 +224,7 @@ export const SECTIONS_DATA: SectionData[] = [
     titleColor: 'text-rose-500',
     content: [
       { type: 'paragraph', text: "Es una buena idea cambiar tu toalla cada 4 a 6 horas. ¡Pero esto es como una guía, no una regla fija!" },
-      { type: 'image', imageUrl: '/img/cambios diarios (2).png', altText: 'Momentos del día para cambiar la compresa' },
+      { type: 'image', imageUrl: '/cambios diarios (2).png', altText: 'Momentos del día para cambiar la compresa' },
       { type: 'paragraph', text: "Si sientes que está llena antes, o si vas a hacer deporte o nadar (aunque para nadar hay otras opciones como los tampones o la copa menstrual, de eso podemos hablar más adelante cuando seas un poco más mayor), ¡cámbiala!" },
       { type: 'paragraph', text: "Lo más importante es que te sientas limpia, seca y cómoda. Escucha a tu cuerpo, ¡él te dirá cuándo es el momento!" },
     ],
@@ -267,7 +267,7 @@ export const SECTIONS_DATA: SectionData[] = [
           "✨ ¡Una chocolatina pequeña o tu snack favorito! A veces algo rico ayuda."
         ]
       },
-      { type: 'image', imageUrl: '/img/kit.png', altText: 'Un kit de periodo con toallitas y otros elementos esenciales' },
+      { type: 'image', imageUrl: '/kit.png', altText: 'Un kit de periodo con toallitas y otros elementos esenciales' },
     ],
   },
   {
@@ -280,7 +280,7 @@ export const SECTIONS_DATA: SectionData[] = [
     titleColor: 'text-violet-500',
     content: [
       { type: 'paragraph', text: "Es súper normal sentir un montón de cosas diferentes cuando te llega el periodo por primera vez, o incluso después. Puedes sentirte emocionada, un poco nerviosa, curiosa, ¡o hasta un poco avergonzada! Todas esas emociones son válidas." },
-      { type: 'image', imageUrl: '/img/estados de animo.png', altText: 'Iconos de diferentes estados de ánimo' },
+      { type: 'image', imageUrl: '/estados de animo.png', altText: 'Iconos de diferentes estados de ánimo' },
       { type: 'paragraph', text: "Recuerda que el periodo es una señal de que estás creciendo y tu cuerpo está haciendo cosas increíbles. ¡Es parte de ser tú!" },
       { type: 'paragraph', text: "Cada chica y cada cuerpo es diferente. Algunas amigas tendrán periodos más ligeros, otras más abundantes, a algunas les dolerá un poco el estómago y a otras no. ¡Y todo está bien!" },
       { type: 'paragraph', text: "Lo más importante es que sepas que **no estás sola**. Millones de chicas y mujeres en todo el mundo tienen el periodo cada mes. Habla con tu mamá, una hermana mayor, una tía, tu cuidadora o cualquier adulto de confianza. ¡Estamos aquí para ayudarte!" },
